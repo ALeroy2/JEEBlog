@@ -51,7 +51,7 @@ public class ServletInscription extends javax.servlet.http.HttpServlet {
             resultat = "Echec de l'inscrition";
         }
 
-        /*Stockage du résultat et des messages d'erreur dan sl'objet request*/
+        /*Stockage du résultat et des messages d'erreur dans l'objet request*/
         request.setAttribute(ATT_ERREURS, erreurs);
         request.setAttribute(ATT_RESULTAT, resultat);
 

@@ -7,4 +7,9 @@
         <servlet-name>ServletInscription</servlet-name>
         <servlet-class>ServletInscription</servlet-class>
     </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletInscription</servlet-name>
+        <url-pattern>/MyEpsi</url-pattern>
+    </servlet-mapping>
 </web-app>

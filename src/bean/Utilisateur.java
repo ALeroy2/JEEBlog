@@ -7,6 +7,7 @@ public class Utilisateur {
 	private String email;
 	private String nom;
 	private String passord;
+	private String confirmation;
 	private Date dateCreation;
 	private Boolean admin;
 	
@@ -40,5 +41,12 @@ public class Utilisateur {
 	public void setAdmin(Boolean admin) {
 		this.admin = admin;
 	}
-	
+
+	public String getConfirmation() {
+		return confirmation;
+	}
+
+	public void setConfirmation(String confirmation) {
+		this.confirmation = confirmation;
+	}
 }

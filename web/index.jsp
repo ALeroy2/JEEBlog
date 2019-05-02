@@ -10,7 +10,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>MyBlog</title>
+  <title>My EPSI Blog</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 
 
@@ -25,20 +25,21 @@
 
   <div>
     <form id="signup-form">
-      <input type="text" placeholder="USERNAME" id="nom" name="nom" value="${param.nom}"/>
+      <input type="text" placeholder="USERNAME" id="nom" name="nom" value="${Utilisateur.setNom()}" size="20" maxlength="60"/>
       <span class="erreur">${erreurs['nom']}</span>
-      <input type="email" placeholder="EMAIL" id= "email" name="email" value="${param.email}"/>
+      <input type="email" placeholder="EMAIL" id= "email" name="email" value="${Utilisateur.setEmail()}" size="20" maxlength="60"/>
       <span class="erreurs">${erreurs['email']}</span>
-      <input type="password" placeholder="PASSWORD" id= "modepasse" name="motdepasse" value="${param.motdepasse}"/>
+      <input type="password" placeholder="PASSWORD" id= "modepasse" name="motdepasse" value="${Utilisateur.setmPassword()}" size="20" maxlength="60"/>
       <span class =erreurs>${erreurs['motdepasse']}</span>
-      <input type="conf" placeholder="CONFIRMATION" id = "confirmation" name="confirmation" value="${param.confirmation}"/>
+      <input type="conf" placeholder="CONFIRMATION" id = "confirmation" name="confirmation" value="${Utilisateur.setConfirmation()}" size="20" maxlength="60"/>
       <span classe="erreurs">${erreurs['confirmation']}</span>
       <button type="button" class="submit-button">Sign up !</button>
     </form>
     <form id="signin-form">
-      <input type="email" placeholder="USERNAME" id="mail" name="email" />
-      <input type="password" placeholder="PASSWORD" id="motdepasse" name="motdepasse" />
+      <input type="email" placeholder="USERNAME" id="mail" name="email" value="${Utilisateur.setEmail()}" size="20" maxlength="60"/>
+      <input type="password" placeholder="PASSWORD" id="motdepasse" name="motdepasse" value="${Utilisateur.setPassword()}" size="20" maxlength="60"/>
       <button type="button" class="submit-button">Sign In</button>
+      <p class="${empty form.erreurs ? 'succes' : 'erreur'}">${form.resultat}</p>
     </form>
   </div>
 </div>

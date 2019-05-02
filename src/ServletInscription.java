@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class ServletInscription extends javax.servlet.http.HttpServlet {
 
-    public static final String VUE = "/WEB-INF/index.jsp";
+    public static final String VUE = "/web/index.jsp";
     public static final String CHAMP_EMAIL = "email";
     public static final String CHAMPS_PASS = "motdepasse";
     public static final String CHAMP_CONF = "confirmation";

@@ -1,0 +1,207 @@
+/* Basic CSS Reset */
+html, body, div, article, section, header,
+h1, h2, h3, h4, h5, h6,
+ul, li, ol, p, img {
+    margin:0;
+    padding:0;
+}
+p {
+    size: 100px;
+    width: 100%;
+    padding-bottom: 0.70em;
+}
+
+img {
+    border:none;
+}
+
+/* Global Styles */
+body {
+    line-height: 1.55;
+    font-size: 100%;
+    font-weight: 400;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2.55em;
+    padding-bottom: .70em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+.widthWrapper {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Post Index */
+#postIndex {
+    margin: 3em auto;
+}
+
+article {
+    margin-top: -0.063em;
+}
+
+article a {
+    display: block;
+    padding: 2.374em 2.5em 2.5em 2.5em;
+    overflow: hidden;
+    border-top: .063em solid #ccc;
+    border-bottom: .063em solid #ccc;
+}
+
+article a:hover {
+    background: #eee;
+    border-top: #666 solid .25em;
+    padding: 2.187em 2.5em 2.5em 2.5em;
+}
+
+.postImg {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 2em;
+}
+
+.postImg img {
+    width: 136px;
+}
+
+article a h2 {
+    color: #222;
+    float: right;
+    width: 75%;
+}
+
+article a:hover h2 {
+    color: #157EBF;
+}
+
+article a p {
+    color: #444;
+    float: right;
+    width: 75%;
+}
+
+article a:hover p {
+    color: #222;
+}
+
+@media only screen and (max-width: 750px) {
+    #postIndex {
+        width: 100%;
+    }
+
+    article a {
+        padding: 2.374em 1.5em 2.5em 1.5em;
+    }
+
+    article a:hover {
+        padding: 2.187em 1.5em 2.5em 1.5em;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .postImg {
+        display: none;
+    }
+
+    article a p, article a h2 {
+        width: 100%;
+    }
+
+}
+/**commentaire**/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    border:0;
+}
+body{
+    font: 13px/100% tahoma;
+}
+.clear{clear:both;}
+.wrapper{
+    width:100%;
+    margin:10px auto;
+}
+.commentBox{
+
+}
+fieldset{
+    padding:10px;
+    background:#69bdf4;
+}
+.form_grp{
+    margin-bottom:10px;
+}
+label{
+    width:100%;
+    height:32px;
+    line-height:32px;
+    display:block;
+    margin-bottom:10px;
+    font-size:18px;
+    color:#fff;
+    padding-left:0px;
+}
+textarea{
+    width:100%;
+    height:111px;
+    padding:0px;
+    border:1px solid #eee;
+    resize:none;
+}
+button{
+    padding:5px 20px;
+    background-color:#0e7ec7;
+    color:#fff;
+    float:right;
+}
+.viewCmnt{
+    clear:both;
+    overflow:hidden;
+    position:relative;
+    background:#c8e7fb;
+    border-bottom:1px solid #A6DAFC;
+}
+.viewCmnt p {
+    width:100%;
+    float:left;
+    padding:10px;
+    font-size:14px;
+    line-height:20px;
+}
+.edit, .delete{
+    position:absolute;
+    width:20px;
+    height:20px;
+    display:none;
+    cursor:pointer;
+    bottom:5px;
+    padding:2px;
+}
+.viewCmnt:hover .edit, .viewCmnt:hover .delete{
+    display:block;
+}
+.edit{
+    right:26px;  background:url(https://cdn4.iconfinder.com/data/icons/miu/22/editor_pencil_pen_edit_write_-16.png) no-repeat center #0e7ec7;
+}
+.delete{
+    right:5px;
+    background:url(https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/cross-24-16.png) no-repeat center #0e7ec7;
+    z-index:2;
+}

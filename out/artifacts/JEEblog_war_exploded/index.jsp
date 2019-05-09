@@ -1,3 +1,6 @@
+<%--@elvariable id="connexion" type="bean.Connexion"--%>
+<%@ page pageEncoding="UTF-8" %>
+<%@ page import="bean.Connexion" %>
 <%--
   Created by IntelliJ IDEA.
   User: Alexis
@@ -22,24 +25,24 @@
     <button id="signin-button">Connexion</button>
     <button id="signup-button">Inscription</button>
   </div>
-
+  <%--@elvariable id="user" type="bean.Utilisateur"--%>
   <div>
     <form id="signup-form">
-      <input type="text" placeholder="USERNAME" id="nom" name="nom" value="${utilisateur.nom}" size="20" maxlength="60"/>
-      <span class="erreur">${erreurs['nom']}</span>
-      <input type="email" placeholder="EMAIL" id= "email" name="email" value="${utilisateur.email}" size="20" maxlength="60"/>
-      <span class="erreurs">${erreurs['email']}</span>
-      <input type="password" placeholder="PASSWORD" id= "modepasse" name="motdepasse" value="${utilisateur.motdepasse}" size="20" maxlength="60"/>
-      <span class =erreurs>${erreurs['motdepasse']}</span>
-      <input type="conf" placeholder="CONFIRMATION" id = "confirmation" name="confirmation" value="${utilisateur.confirmation}" size="20" maxlength="60"/>
-      <span classe="erreurs">${erreurs['confirmation']}</span>
-      <button type="button" class="submit-button">Sign up !</button>
+      <input type="text" placeholder="USERNAME" id="nom" name="nom" value="${user.nom}" size="20" maxlength="60"/>
+      <span class="erreur">${connexion.erreurs['nom']}</span>
+      <input type="email" placeholder="EMAIL" id= "email" name="email" value=" ${user.email}" size="20" maxlength="60"/>
+      <span class="erreurs">${connexion.erreurs['email']}</span>
+      <input type="password" placeholder="PASSWORD" id= "modepasse" name="motdepasse" value="${user.password}" size="20" maxlength="60"/>
+      <span class =erreurs>${connexion.erreurs['motdepasse']}</span>
+      <button type="button" class="submit-button" >Sign up !</button>
     </form>
     <form id="signin-form">
-      <input type="email" placeholder="USERNAME" id="mail" name="email" value="${utilisateur.email}" size="20" maxlength="60"/>
-      <input type="password" placeholder="PASSWORD" id="motdepasse" name="motdepasse" value="${utilisateur.motdepasse}" size="20" maxlength="60"/>
-      <button type="button" class="submit-button">Sign In</button>
-      <p class="${empty form.erreurs ? 'succes' : 'erreur'}">${form.resultat}</p>
+      <input type="email" placeholder="USERNAME" id="mail" name="email" value="${user.email}" size="20" maxlength="60"/>
+      <input type="password" placeholder="PASSWORD" id="motdepasse" name="motdepasse" value="${user.password}" size="20" maxlength="60"/>
+      <a href="blog.jsp">
+        <button type="button" class="submit-button" >Sign In</button>
+      </a>
+      <p class="${empty connexion.erreurs ? 'succes' : 'erreur'}">${connexion.resultat}</p>
     </form>
   </div>
 </div>

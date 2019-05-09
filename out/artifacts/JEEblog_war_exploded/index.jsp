@@ -39,9 +39,7 @@
     <form id="signin-form">
       <input type="email" placeholder="USERNAME" id="mail" name="email" value="${user.email}" size="20" maxlength="60"/>
       <input type="password" placeholder="PASSWORD" id="motdepasse" name="motdepasse" value="${user.password}" size="20" maxlength="60"/>
-      <a href="blog.jsp">
         <button type="button" class="submit-button" >Sign In</button>
-      </a>
       <p class="${empty connexion.erreurs ? 'succes' : 'erreur'}">${connexion.resultat}</p>
     </form>
   </div>

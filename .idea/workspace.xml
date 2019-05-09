@@ -7,20 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b6896e-84fa-4e01-af8d-14460a8a4610" name="Default Changelist" comment="&quot;correction d'une ligne&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/Connexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/blog.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JEEblog_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JEEblog_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JEEblog_war_exploded/WEB-INF/classes/ServletInscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JEEblog_war_exploded/WEB-INF/classes/ServletInscription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JEEblog_war_exploded/WEB-INF/classes/bean/Utilisateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JEEblog_war_exploded/WEB-INF/classes/bean/Utilisateur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JEEblog_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JEEblog_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JEEblog/ServletInscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JEEblog/ServletInscription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JEEblog/bean/Utilisateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JEEblog/bean/Utilisateur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServletInscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServletInscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Utilisateur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            <state relative-caret-position="215">
+              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -69,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bean/Connexion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-722">
+            <state relative-caret-position="180">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,15 +65,6 @@
                 <element signature="e#2499#2500#0" expanded="true" />
                 <element signature="e#2529#2530#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/blog.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -237,13 +214,6 @@
             <path>
               <item name="JEEblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="JEEblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mocklmpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JEEblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEEblog" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -382,7 +352,7 @@
       <workItem from="1556789222908" duration="6814000" />
       <workItem from="1556875349079" duration="688000" />
       <workItem from="1557129151113" duration="8220000" />
-      <workItem from="1557386337528" duration="7380000" />
+      <workItem from="1557386337528" duration="7799000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;correction d'une ligne&quot;">
       <created>1556633317204</created>
@@ -395,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27555000" />
+    <option name="totallyTimeSpent" value="27974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,7 +400,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329429" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329429" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.329429" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32064423" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -689,16 +659,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/blog.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bean/Connexion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722">
+        <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -711,10 +681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/blog.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="215">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
         </state>
       </provider>
     </entry>

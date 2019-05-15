@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--@elvariable id="connexion" type="bean.Connexion"--%>
 <%@ page pageEncoding="UTF-8" %>
 <%@ page import="bean.Connexion" %>
@@ -27,7 +28,7 @@
   </div>
   <%--@elvariable id="user" type="bean.Utilisateur"--%>
   <div>
-    <form method="post" id="signup-form" action="Inscription">
+    <form method="post" id="signup-form" action="<c:url value="/Inscription"/>">
       <input type="text" placeholder="USERNAME" name="Nom" />
       <input type="email" placeholder="EMAIL" name="email" size="20" maxlength="60"/>
       <input type="password" placeholder="PASSWORD" name="motdepasse" size="20" maxlength="60"/>

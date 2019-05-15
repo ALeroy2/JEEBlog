@@ -11,7 +11,7 @@ public class ServletInscription extends javax.servlet.http.HttpServlet {
     public static final String ATT_USER = "user";
     public static final String ATT_CONNEXION = "connexion";
     public static final String ATT_SESSION_USER = "sessionUser";
-    public static final String VUE = " /web/index.jsp";
+    public static final String VUE = " web/index.jsp";
 
 
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {

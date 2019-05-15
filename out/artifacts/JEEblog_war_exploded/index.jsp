@@ -27,19 +27,16 @@
   </div>
   <%--@elvariable id="user" type="bean.Utilisateur"--%>
   <div>
-    <form id="signup-form">
-      <input type="text" placeholder="USERNAME" id="nom" name="nom" value="${user.nom}" size="20" maxlength="60"/>
-      <span class="erreur">${connexion.erreurs['nom']}</span>
-      <input type="email" placeholder="EMAIL" id= "email" name="email" value=" ${user.email}" size="20" maxlength="60"/>
-      <span class="erreurs">${connexion.erreurs['email']}</span>
-      <input type="password" placeholder="PASSWORD" id= "modepasse" name="motdepasse" value="${user.password}" size="20" maxlength="60"/>
-      <span class =erreurs>${connexion.erreurs['motdepasse']}</span>
-      <button type="button" class="submit-button" >Sign up !</button>
+    <form method="post" id="signup-form" action="Inscription">
+      <input type="text" placeholder="USERNAME" name="Nom" />
+      <input type="email" placeholder="EMAIL" name="email" size="20" maxlength="60"/>
+      <input type="password" placeholder="PASSWORD" name="motdepasse" size="20" maxlength="60"/>
+      <button type="submit" class="submit-button" >Sign up !</button>
     </form>
     <form id="signin-form">
       <input type="email" placeholder="USERNAME" id="mail" name="email" value="${user.email}" size="20" maxlength="60"/>
-      <input type="password" placeholder="PASSWORD" id="motdepasse" name="motdepasse" value="${user.password}" size="20" maxlength="60"/>
-        <button type="button" class="submit-button" >Sign In</button>
+      <input type="password" placeholder="PASSWORD" name="motdepasse"  size="20" maxlength="60"/>
+        <button type="submit" class="submit-button" formaction="Inscription" >Sign In</button>
       <p class="${empty connexion.erreurs ? 'succes' : 'erreur'}">${connexion.resultat}</p>
     </form>
   </div>

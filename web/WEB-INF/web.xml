@@ -7,9 +7,8 @@
         <servlet-name>ServletInscription</servlet-name>
         <servlet-class>ServletInscription</servlet-class>
     </servlet>
-
     <servlet-mapping>
-        <servlet-name>ServletInscription</servlet-name>
-        <url-pattern>/MyEpsi</url-pattern>
+        <servlet-name>ServletInscription</servlet-name><!-- Nom de la classe -->
+        <url-pattern>/Inscription</url-pattern><!-- Pattern de la classe dans l'url -->
     </servlet-mapping>
 </web-app>

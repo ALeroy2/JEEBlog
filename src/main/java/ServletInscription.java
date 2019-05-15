@@ -1,9 +1,11 @@
 import bean.Connexion;
 import bean.Utilisateur;
 
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+@WebServlet("Inscription")
 public class ServletInscription extends javax.servlet.http.HttpServlet {
 
     public static final String ATT_USER = "user";

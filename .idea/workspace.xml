@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b6896e-84fa-4e01-af8d-14460a8a4610" name="Default Changelist" comment="&quot;correction d'une ligne&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JEEblog_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JEEblog_Web_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ServletInscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServletInscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ServletInscription.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -414,7 +410,7 @@
       <workItem from="1557386337528" duration="7799000" />
       <workItem from="1557913166449" duration="2203000" />
       <workItem from="1557918927333" duration="3228000" />
-      <workItem from="1557922276016" duration="417000" />
+      <workItem from="1557922276016" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;correction d'une ligne&quot;">
       <created>1556633317204</created>
@@ -427,7 +423,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33822000" />
+    <option name="totallyTimeSpent" value="34119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -759,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ServletInscription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

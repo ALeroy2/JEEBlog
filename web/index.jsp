@@ -28,13 +28,13 @@
   </div>
   <%--@elvariable id="user" type="bean.Utilisateur"--%>
   <div>
-    <form method="post" id="signup-form" action="<c:url value="/Inscription"/>">
+    <form method="post" id="signup-form" action="Inscription">
       <input type="text" placeholder="USERNAME" name="Nom" />
       <input type="email" placeholder="EMAIL" name="email" size="20" maxlength="60"/>
       <input type="password" placeholder="PASSWORD" name="motdepasse" size="20" maxlength="60"/>
       <button type="submit" class="submit-button" >Sign up !</button>
     </form>
-    <form id="signin-form">
+    <form method="post" id="signin-form" action ="Connection">
       <input type="email" placeholder="USERNAME" id="mail" name="email" value="${user.email}" size="20" maxlength="60"/>
       <input type="password" placeholder="PASSWORD" name="motdepasse"  size="20" maxlength="60"/>
         <button type="submit" class="submit-button" formaction="Inscription" >Sign In</button>

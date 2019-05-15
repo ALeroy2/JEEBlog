@@ -5,10 +5,18 @@
          version="4.0">
     <servlet>
         <servlet-name>ServletInscription</servlet-name>
-        <servlet-class>ServletInscription</servlet-class>
+        <servlet-class>servlet.ServletInscription</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Connection</servlet-name>
+        <servlet-class>servlet.Connection</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletInscription</servlet-name><!-- Nom de la classe -->
         <url-pattern>/Inscription</url-pattern><!-- Pattern de la classe dans l'url -->
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Connection</servlet-name>
+        <url-pattern>/Connection</url-pattern>
     </servlet-mapping>
 </web-app>

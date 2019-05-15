@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JEEblog:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JEEblog_Web_exploded</output-path>
+    <root id="root">
+      <element id="module-output" name="JEEblog" />
+    </root>
+  </artifact>
+</component>
